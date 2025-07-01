@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--  Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!--~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~-->
+    <link href="dist/output.css" rel="stylesheet" />
+    <title>TheBurgers</title>
+  </head>
+  <body>
+    <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
+    <header id="header" class="bg-primaryColor fixed top-0 left-0 w-full z-50">
+      <nav class="container relative h-14 flex justify-between items-center">
+        <div>
+          <a href="#" class="text-2xl uppercase font-oswald">
+            Bur<span class="text-secondaryColor">ger</span>
+          </a>
+        </div>
+        <div
+          class="hidden absolute top-0 left-0 w-full py-14 bg-primaryColor border border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto"
+          id="nav-menu"
+        >
+          <ul class="flex flex-col text-center gap-5 md:flex-row">
+            <li>
+              <a href="#" class="nav-link hover:text-secondaryColor">Home</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="nav-link hover:text-secondaryColor ease-in duration-150"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="nav-link hover:text-secondaryColor ease-in duration-150"
+                >Menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="nav-link hover:text-secondaryColor ease-in duration-150"
+                >Review</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="nav-link hover:text-secondaryColor ease-in duration-150"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div
+            class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden"
+            id="nav-close"
+          >
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="flex items-center gap-5">
+          <i class="ri-moon-line cursor-pointer ml-4 text-xl"></i>
+          <div id="hamburger" class="md:hidden">
+            <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+      <section id="home">
+        <div class="container flex flex-col items-center gap-10">
+          <div class="mx-auto">
+            <img src="img/home-image.png" class="w-60" alt="home image" />
+          </div>
+          <div class="text-center">
+            <h1 class="home_title">HAPPT TUMMY WITH TASTY BURGERS.</h1>
+            <div class="separate mx-auto"></div>
+            <p class="paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque itaque distinctio tempora aliquam minima quidem non
+              aliquid repellat deserunt eveniet, fugiat, ipsam ad fugit nulla.
+              Quaerat eaque ipsa animi fugiat sint ipsum saepe necessitatibus
+              sed id quos ab harum, reiciendis minima iusto at quae iste eos
+              impedit ut. Sed, deleniti!
+            </p>
+            <div class="text-base flex items-center justify-center gap-4 py-10">
+              <div class="text-center">
+                <i class="fa-solid fa-utensils text-secondaryColor text-4xl"></i>
+                <br />
+                Delicious
+              </div>
+              <div class="text-center">
+                <i class="fa-solid fa-droplet text-secondaryColor text-4xl"></i>
+                <br />
+                Fresh
+              </div>
+              <div class="text-center">
+                <i class="fa-brands fa-envira text-secondaryColor text-4xl"></i>
+                <br />
+                Organic
+              </div>
+            </div>
+            <a href="#" class="">learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <!--~~~~~~~~~~~~~~~ Category ~~~~~~~~~~~~~~~-->
+      <section id="category"></section>
+
+      <!--~~~~~~~~~~~~~~~ Promo ~~~~~~~~~~~~~~~-->
+      <section id="promo"></section>
+
+      <!--~~~~~~~~~~~~~~~ About ~~~~~~~~~~~~~~~-->
+      <section id="about"></section>
+
+      <!--~~~~~~~~~~~~~~~ Menu ~~~~~~~~~~~~~~~-->
+      <section id="menu"></section>
+
+      <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~-->
+      <section id="review"></section>
+
+      <!--~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~-->
+      <section id="contact"></section>
+    </main>
+    <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
+    <footer>
+      <section class="footer"></section>
+    </footer>
+
+    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!--~~~~~~~~~~~~~~~ Scroll Reveal ~~~~~~~~~~~~~~~-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--~~~~~~~~~~~~~~~ Main.js ~~~~~~~~~~~~~~~-->
+    <script src="main.js"></script>
+  </body>
+</html>
