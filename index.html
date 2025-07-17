@@ -43,32 +43,32 @@
         >
           <ul class="flex flex-col text-center gap-5 md:flex-row">
             <li>
-              <a href="#" class="nav-link hover:text-secondaryColor">Home</a>
+              <a href="#home" class="nav-link text-secondaryColor hover:text-secondaryColor">Home</a>
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 class="nav-link hover:text-secondaryColor ease-in duration-150"
                 >About us</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#menu"
                 class="nav-link hover:text-secondaryColor ease-in duration-150"
                 >Menu</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#review"
                 class="nav-link hover:text-secondaryColor ease-in duration-150"
                 >Review</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 class="nav-link hover:text-secondaryColor ease-in duration-150"
                 >Contact</a
               >
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="flex items-center gap-5">
-          <i class="ri-moon-line cursor-pointer ml-4 text-xl"></i>
+          <i class="ri-moon-line cursor-pointer ml-4 text-xl" id="theme-toggle"></i>
           <div id="hamburger" class="md:hidden">
             <i class="ri-menu-2-line cursor-pointer text-xl"></i>
           </div>
@@ -303,10 +303,16 @@
             </p>
             <div class="tabs_warp">
               <ul class="flex flex-wrap justify-center gap-3 py-10">
-                <li data-tabs="all" class="btn bg-primaryColorLight active">All</li>
+                <li data-tabs="all" class="btn bg-primaryColorLight active">
+                  All
+                </li>
                 <li data-tabs="food" class="btn bg-primaryColorLight">Food</li>
-                <li data-tabs="snack" class="btn bg-primaryColorLight">Snack</li>
-                <li data-tabs="beverage" class="btn bg-primaryColorLight">Beverage</li>
+                <li data-tabs="snack" class="btn bg-primaryColorLight">
+                  Snack
+                </li>
+                <li data-tabs="beverage" class="btn bg-primaryColorLight">
+                  Beverage
+                </li>
               </ul>
             </div>
           </div>
@@ -593,8 +599,7 @@
                 </div>
                 <div class="pt-5">
                   <div class="mb-2">
-                    <h4 class="card_title">SWEET SMOOTHIE
-</h4>
+                    <h4 class="card_title">SWEET SMOOTHIE</h4>
                     <p class="paragraph">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -616,8 +621,7 @@
                 </div>
                 <div class="pt-5">
                   <div class="mb-2">
-                    <h4 class="card_title">SWEET SMOOTHIE
-</h4>
+                    <h4 class="card_title">SWEET SMOOTHIE</h4>
                     <p class="paragraph">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -639,8 +643,7 @@
                 </div>
                 <div class="pt-5">
                   <div class="mb-2">
-                    <h4 class="card_title">SWEET SMOOTHIE
-</h4>
+                    <h4 class="card_title">SWEET SMOOTHIE</h4>
                     <p class="paragraph">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -662,8 +665,7 @@
                 </div>
                 <div class="pt-5">
                   <div class="mb-2">
-                    <h4 class="card_title">SWEET SMOOTHIE
-</h4>
+                    <h4 class="card_title">SWEET SMOOTHIE</h4>
                     <p class="paragraph">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -678,22 +680,303 @@
       </section>
 
       <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~-->
-      <section id="review">
-        
+      <section id="review" class="bg-primaryColorLight py-20">
+        <div class="container">
+          <div class="max-w-md mx-auto text-center">
+            <h2 class="section_title">CUSTOMER REVIEW</h2>
+            <div class="separator mx-auto"></div>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+          </div>
+          <div class="swiper py-10">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit vel corporis provident eveniet sequi ut
+                    molestiae quis.
+                  </p>
+
+                  <div class="flex items-center">
+                    <img
+                      src="img/review-1.jpg"
+                      alt="review-image"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">John Doe</p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i
+                      class="fa-solid fa-quote-right text-4xl text-secondaryColor ml-auto"
+                    ></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit vel corporis provident eveniet sequi ut
+                    molestiae quis.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="img/review-2.jpg"
+                      alt="review-image"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">John Doe</p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i
+                      class="fa-solid fa-quote-right text-4xl text-secondaryColor ml-auto"
+                    ></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit vel corporis provident eveniet sequi ut
+                    molestiae quis.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="img/review-3.jpg"
+                      alt="review-image"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">John Doe</p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i
+                      class="fa-solid fa-quote-right text-4xl text-secondaryColor ml-auto"
+                    ></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit vel corporis provident eveniet sequi ut
+                    molestiae quis.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="img/review-4.jpg"
+                      alt="review-image"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">John Doe</p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i
+                      class="fa-solid fa-quote-right text-4xl text-secondaryColor ml-auto"
+                    ></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit vel corporis provident eveniet sequi ut
+                    molestiae quis.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="img/review-5.jpg"
+                      alt="review-image"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">John Doe</p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i
+                      class="fa-solid fa-quote-right text-4xl text-secondaryColor ml-auto"
+                    ></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
 
       <!--~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~-->
-      <section id="contact"></section>
+      <section id="contact" class="bg-secondaryColor py-16">
+        <div class="container flex flex-col gap-5 md:items-center md:flex-row">
+          <div class="space-y-4 md:flex-1">
+            <h2 class="section_title text-blackColor">GET EXLUSIVE UPDATE</h2>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              nam.
+            </p>
+          </div>
+          <div class="flex flex-col gap-3 md:flex-row md:flex-1">
+            <input
+              type="email"
+              placeholder="Email address"
+              class="p-2 text-blackColor rounded-lg outline-none md:w-full"
+            />
+            <a
+              href=""
+              class="flex items-center justify-center gap-2 btn bg-blackColor hover:opacity-75"
+            >
+              <i class="fa-solid fa-paper-plane"></i>
+              Subscribe
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
     <footer>
-      <section class="footer"></section>
+      <section class="footer">
+        <div class="container">
+          <ul
+            class="grid grid-cols1 items-start gap-5 md:grid-cols-2 lg:grid-cols-4"
+          >
+            <li>
+              <div class="space-y-3">
+                <a href="" class="text-4xl font-oswald uppercase"
+                  >bur<span class="text-secondaryColor">ger</span></a
+                >
+
+                <p class="text-xs">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Modi, ad ex quidem iure itaque reprehenderit alias sed.
+                  Aperiam.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="flex flex-col gap-3">
+                <h3 class="text-lg font-oswald uppercase">Support</h3>
+                <a href="" class="text-xs hover:text-secondaryColor">FAQ's</a>
+                <a href="" class="text-xs hover:text-secondaryColor"
+                  >Privacy Policy</a
+                >
+                <a href="" class="text-xs hover:text-secondaryColor"
+                  >Terms & Conditons</a
+                >
+                <a href="" class="text-xs hover:text-secondaryColor">Contact</a>
+              </div>
+            </li>
+
+            <li class="space-y-8">
+              <div class="space-y-2">
+                <h3 class="text-lg uppercase font-oswald">phone</h3>
+                <p class="flex items-center gap-2 text-xs">
+                  <i class="fa-solid fa-phone text-lg text-secondaryColor"></i>
+                  +92 310 260 4311
+                </p>
+              </div>
+
+              <div class="space-y-2">
+                <h3 class="text-lg uppercase font-oswald">email</h3>
+                <p class="flex items-center gap-2 text-xs">
+                  <i
+                    class="fa-solid fa-envelope text-lg text-secondaryColor"
+                  ></i>
+                  theburgers.info@gmail.com
+                </p>
+              </div>
+            </li>
+
+            <li class="space-y-8">
+              <div class="space-y-2">
+                <h3 class="text-lg uppercase font-oswald">Address</h3>
+                <p class="flex items-center gap-2 text-xs">
+                  <i
+                    class="fa-solid fa-location-dot text-lg text-secondaryColor"
+                  ></i>
+                  Karachi, Sindh. Pakistan
+                </p>
+              </div>
+
+              <div class="space-y-2">
+                <h3 class="text-lg uppercase font-oswald">Follow us</h3>
+                <i
+                  class="fa-brands fa-facebook-f text-lg cursor-pointer text-secondaryColor hover:translate-y-1 ease-in duration-200"
+                ></i>
+                <i
+                  class="fa-brands fa-twitter text-lg cursor-pointer text-secondaryColor hover:translate-y-1 ease-in duration-200"
+                ></i>
+                <i
+                  class="fa-brands fa-square-instagram text-lg cursor-pointer text-secondaryColor hover:translate-y-1 ease-in duration-200"
+                ></i>
+              </div>
+            </li>
+          </ul>
+          <div
+            class="flex flex-col items-center border-t border-primaryColorLight py-5 md:flex-row md:justify-between"
+          >
+            <p class="paragraph">TheBurgers Template Kit By Author</p>
+            <p class="paragraph">Copyright © 2025. All rights reserved.</p>
+          </div>
+        </div>
+      </section>
     </footer>
+    <a
+      href="#"
+      id="scroll-up"
+      class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300"
+    >
+      <i class="ri-arrow-up-line"></i>
+    </a>
 
     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
 
     <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper ", {
+        speed: 400,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        grapCursor: true,
+        breakpoints: {
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
 
     <!--~~~~~~~~~~~~~~~ Scroll Reveal ~~~~~~~~~~~~~~~-->
     <script src="https://unpkg.com/scrollreveal"></script>
